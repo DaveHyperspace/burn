@@ -47,7 +47,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e89da841a80418a9b391ebaea17f5c112ffaaa96f621d2c285b5174da76b9011"
 dependencies = [
  "cfg-if",
- "getrandom",
+ "getrandom 0.2.15",
  "once_cell",
  "version_check",
  "zerocopy",
@@ -302,7 +302,7 @@ dependencies = [
  "indicatif",
  "os_info",
  "percent-encoding",
- "rand",
+ "rand 0.8.5",
  "reqwest 0.12.7",
  "rstest",
  "serde",
@@ -509,7 +509,7 @@ dependencies = [
  "cubecl-common",
  "dashmap",
  "data-encoding",
- "getrandom",
+ "getrandom 0.2.15",
  "indicatif",
  "rayon",
  "reqwest 0.12.7",
@@ -539,7 +539,7 @@ dependencies = [
  "log",
  "num-traits",
  "portable-atomic-util",
- "rand",
+ "rand 0.8.5",
  "regex",
  "rmp-serde",
  "serde",
@@ -580,7 +580,7 @@ dependencies = [
  "polars",
  "r2d2",
  "r2d2_sqlite",
- "rand",
+ "rand 0.8.5",
  "rayon",
  "rmp-serde",
  "rstest",
@@ -661,7 +661,7 @@ dependencies = [
  "hashbrown 0.14.5",
  "log",
  "num-traits",
- "rand",
+ "rand 0.8.5",
  "serde",
  "serial_test",
  "spin",
@@ -683,7 +683,7 @@ dependencies = [
  "num-traits",
  "openblas-src",
  "portable-atomic-util",
- "rand",
+ "rand 0.8.5",
  "spin",
 ]
 
@@ -705,7 +705,7 @@ dependencies = [
  "half",
  "libc",
  "log",
- "rand",
+ "rand 0.8.5",
  "tch",
 ]
 
@@ -722,7 +722,7 @@ dependencies = [
  "half",
  "hashbrown 0.14.5",
  "num-traits",
- "rand",
+ "rand 0.8.5",
  "rand_distr",
  "serde",
  "serde_bytes",
@@ -848,7 +848,7 @@ dependencies = [
  "metal 0.27.0",
  "num-traits",
  "num_cpus",
- "rand",
+ "rand 0.8.5",
  "rand_distr",
  "rayon",
  "safetensors 0.4.5",
@@ -1397,7 +1397,7 @@ dependencies = [
 [[package]]
 name = "cubecl"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "cubecl-core",
  "cubecl-cuda",
@@ -1408,13 +1408,13 @@ dependencies = [
 [[package]]
 name = "cubecl-common"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "derive-new",
- "getrandom",
+ "getrandom 0.2.15",
  "pollster",
  "portable-atomic-util",
- "rand",
+ "rand 0.8.5",
  "serde",
  "spin",
  "web-time",
@@ -1423,7 +1423,7 @@ dependencies = [
 [[package]]
 name = "cubecl-core"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1439,7 +1439,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cuda"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1454,7 +1454,7 @@ dependencies = [
 [[package]]
 name = "cubecl-linalg"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "bytemuck",
  "cubecl-core",
@@ -1465,7 +1465,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "cubecl-common",
  "darling",
@@ -1480,7 +1480,7 @@ dependencies = [
 [[package]]
 name = "cubecl-runtime"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "async-channel",
  "cfg_aliases 0.2.1",
@@ -1500,7 +1500,7 @@ dependencies = [
 [[package]]
 name = "cubecl-wgpu"
 version = "0.2.0"
-source = "git+ssh://git@github.com/hyperspaceai/cubecl.git#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
+source = "git+https://github.com/DaveHyperspace/cubecl#efe5e9bd8bb6b7a52a1425cc8d6de39bd544ad6b"
 dependencies = [
  "async-channel",
  "bytemuck",
@@ -1980,7 +1980,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1c25829bde82205da46e1823b2259db6273379f626fc211f126f65654a2669be"
 dependencies = [
  "deunicode",
- "rand",
+ "rand 0.8.5",
 ]
 
 [[package]]
@@ -2367,8 +2367,20 @@ dependencies = [
  "cfg-if",
  "js-sys",
  "libc",
- "wasi",
+ "wasi 0.11.0+wasi-snapshot-preview1",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "getrandom"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "26145e563e54f2cadc477553f1ec5ee650b00862f0a58bcd12cbdc5f0ea2d2f4"
+dependencies = [
+ "cfg-if",
+ "libc",
+ "r-efi",
+ "wasi 0.14.2+wasi-0.2.4",
 ]
 
 [[package]]
@@ -2637,7 +2649,7 @@ dependencies = [
  "cfg-if",
  "crunchy",
  "num-traits",
- "rand",
+ "rand 0.8.5",
  "rand_distr",
  "serde",
 ]
@@ -2742,7 +2754,7 @@ dependencies = [
  "indicatif",
  "log",
  "native-tls",
- "rand",
+ "rand 0.8.5",
  "serde",
  "serde_json",
  "thiserror",
@@ -3537,7 +3549,7 @@ checksum = "a4a650543ca06a924e8b371db273b2756685faae30f8487da1b56505a8f78b0c"
 dependencies = [
  "libc",
  "log",
- "wasi",
+ "wasi 0.11.0+wasi-snapshot-preview1",
  "windows-sys 0.48.0",
 ]
 
@@ -3549,7 +3561,7 @@ checksum = "80e04d1dcff3aae0704555fe5fee3bcfaf3d1fdf8a7e521d5b9d2b42acb52cec"
 dependencies = [
  "hermit-abi 0.3.9",
  "libc",
- "wasi",
+ "wasi 0.11.0+wasi-snapshot-preview1",
  "windows-sys 0.52.0",
 ]
 
@@ -4273,7 +4285,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7676374caaee8a325c9e7a2ae557f216c5563a171d6997b0ef8a65af35147700"
 dependencies = [
  "base64ct",
- "rand_core",
+ "rand_core 0.6.4",
  "subtle",
 ]
 
@@ -4337,7 +4349,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "48e4cc64c2ad9ebe670cb8fd69dd50ae301650392e81c05f9bfcb2d5bdbc24b0"
 dependencies = [
  "phf_shared",
- "rand",
+ "rand 0.8.5",
 ]
 
 [[package]]
@@ -4415,7 +4427,7 @@ version = "0.41.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8e3351ea4570e54cd556e6755b78fe7a2c85368d820c0307cca73c96e796a7ba"
 dependencies = [
- "getrandom",
+ "getrandom 0.2.15",
  "polars-arrow",
  "polars-core",
  "polars-error",
@@ -4446,7 +4458,7 @@ dependencies = [
  "ethnum",
  "fast-float",
  "foreign_vec",
- "getrandom",
+ "getrandom 0.2.15",
  "hashbrown 0.14.5",
  "itoa",
  "itoap",
@@ -4512,7 +4524,7 @@ dependencies = [
  "polars-error",
  "polars-row",
  "polars-utils",
- "rand",
+ "rand 0.8.5",
  "rand_distr",
  "rayon",
  "regex",
@@ -4757,7 +4769,7 @@ dependencies = [
  "polars-ops",
  "polars-plan",
  "polars-time",
- "rand",
+ "rand 0.8.5",
  "serde",
  "serde_json",
  "sqlparser",
@@ -5047,6 +5059,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "r-efi"
+version = "5.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f"
+
+[[package]]
 name = "r2d2"
 version = "0.8.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5075,8 +5093,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404"
 dependencies = [
  "libc",
- "rand_chacha",
- "rand_core",
+ "rand_chacha 0.3.1",
+ "rand_core 0.6.4",
+]
+
+[[package]]
+name = "rand"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9fbfd9d094a40bf3ae768db9361049ace4c0e04a4fd6b359518bd7b73a73dd97"
+dependencies = [
+ "rand_chacha 0.9.0",
+ "rand_core 0.9.3",
 ]
 
 [[package]]
@@ -5086,7 +5114,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88"
 dependencies = [
  "ppv-lite86",
- "rand_core",
+ "rand_core 0.6.4",
+]
+
+[[package]]
+name = "rand_chacha"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d3022b5f1df60f26e1ffddd6c66e8aa15de382ae63b3a0c1bfc0e4d3e3f325cb"
+dependencies = [
+ "ppv-lite86",
+ "rand_core 0.9.3",
 ]
 
 [[package]]
@@ -5095,7 +5133,16 @@ version = "0.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
- "getrandom",
+ "getrandom 0.2.15",
+]
+
+[[package]]
+name = "rand_core"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "99d9a13982dcf210057a8a78572b2217b667c3beacbf3a0d8b454f6f82837d38"
+dependencies = [
+ "getrandom 0.3.3",
 ]
 
 [[package]]
@@ -5105,7 +5152,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32cb0b9bc82b0a0876c2dd994a7e7a2683d3e7390ca40e6886785ef0c7e3ee31"
 dependencies = [
  "num-traits",
- "rand",
+ "rand 0.8.5",
 ]
 
 [[package]]
@@ -5161,8 +5208,8 @@ dependencies = [
  "once_cell",
  "paste",
  "profiling",
- "rand",
- "rand_chacha",
+ "rand 0.8.5",
+ "rand_chacha 0.3.1",
  "simd_helpers",
  "system-deps",
  "thiserror",
@@ -5295,7 +5342,7 @@ version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ba009ff324d1fc1b900bd1fdb31564febe58a8ccc8a6fdbb93b543d33b13ca43"
 dependencies = [
- "getrandom",
+ "getrandom 0.2.15",
  "libredox",
  "thiserror",
 ]
@@ -5457,7 +5504,7 @@ checksum = "c17fa4cb658e3583423e915b9f3acc01cceaee1860e33d59ebae66adc3a2dc0d"
 dependencies = [
  "cc",
  "cfg-if",
- "getrandom",
+ "getrandom 0.2.15",
  "libc",
  "spin",
  "untrusted",
@@ -6334,7 +6381,7 @@ dependencies = [
  "lazy_static",
  "libc",
  "ndarray 0.15.6",
- "rand",
+ "rand 0.8.5",
  "safetensors 0.3.3",
  "thiserror",
  "torch-sys",
@@ -6508,7 +6555,7 @@ dependencies = [
  "aho-corasick",
  "derive_builder",
  "esaxx-rs",
- "getrandom",
+ "getrandom 0.2.15",
  "hf-hub",
  "itertools 0.12.1",
  "lazy_static",
@@ -6517,7 +6564,7 @@ dependencies = [
  "monostate",
  "onig",
  "paste",
- "rand",
+ "rand 0.8.5",
  "rayon",
  "rayon-cond",
  "regex",
@@ -6679,7 +6726,7 @@ dependencies = [
  "derive_more",
  "env_logger",
  "log",
- "rand",
+ "rand 0.8.5",
  "regex",
  "serde_json",
  "strum",
@@ -6902,12 +6949,12 @@ checksum = "06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821"
 
 [[package]]
 name = "uuid"
-version = "1.10.0"
+version = "1.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81dfa00651efa65069b0b6b651f4aaa31ba9e3c3ce0137aaad053604ee7e0314"
+checksum = "458f7a779bf54acc9f347480ac654f68407d3aab21269a6e3c9f922acd9e2da9"
 dependencies = [
- "getrandom",
- "rand",
+ "getrandom 0.3.3",
+ "rand 0.9.1",
 ]
 
 [[package]]
@@ -6969,6 +7016,15 @@ name = "wasi"
 version = "0.11.0+wasi-snapshot-preview1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423"
+
+[[package]]
+name = "wasi"
+version = "0.14.2+wasi-0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9683f9a5a998d873c0d21fcbe3c083009670149a8fab228644b8bd36b2c48cb3"
+dependencies = [
+ "wit-bindgen-rt",
+]
 
 [[package]]
 name = "wasm-bindgen"
@@ -7470,6 +7526,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "wit-bindgen-rt"
+version = "0.39.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f42320e61fe2cfd34354ecb597f86f413484a798ba44a8ca1165c58d42da6c1"
+dependencies = [
+ "bitflags 2.6.0",
+]
+
+[[package]]
 name = "wrapcenum-derive"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -7684,7 +7749,7 @@ dependencies = [
  "lzma-rs",
  "memchr",
  "pbkdf2 0.12.2",
- "rand",
+ "rand 0.8.5",
  "sha1",
  "thiserror",
  "time",
